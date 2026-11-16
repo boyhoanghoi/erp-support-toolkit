@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "status": "REVIEW_REQUIRED",
+  "reliable": false,
+  "product_rows": 4,
+  "movement_rows": 4,
+  "error_count": 5,
+  "variance_count": 1,
+  "errors": [
+    {
+      "source": "products",
+      "row": 4,
+      "code": "DUPLICATE_SKU",
+      "detail": "MS-02"
+    },
+    {
+      "source": "products",
+      "row": 4,
+      "code": "INVALID_PRICE",
+      "detail": "Price must be finite, nonnegative, with at most two decimal places"
+    },
+    {
+      "source": "products",
+      "row": 5,
+      "code": "MISSING_NAME",
+      "detail": "BAD-03"
+    },
+    {
+      "source": "products",
+      "row": 5,
+      "code": "INVALID_PRICE",
+      "detail": "Price must be finite, nonnegative, with at most two decimal places"
+    },
+    {
+      "source": "products",
+      "row": 5,
+      "code": "INVALID_STOCK",
+      "detail": "Opening/current stock must be nonnegative integers"
+    }
+  ],
+  "balances": [
+    {
+      "sku": "KB-01",
+      "opening_stock": 10,
+      "movement_total": -3,
+      "expected_stock": 7,
+      "current_stock": 6,
+      "difference": -1
+    },
+    {
+      "sku": "MS-02",
+      "opening_stock": 5,
+      "movement_total": 3,
+      "expected_stock": 8,
+      "current_stock": 8,
+      "difference": 0
+    }
+  ]
+}

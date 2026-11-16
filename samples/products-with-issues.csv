@@ -1,0 +1,5 @@
+sku,name,unit_price,opening_stock,current_stock
+KB-01,Mechanical keyboard,49.99,10,6
+MS-02,Wireless mouse,19.50,5,8
+MS-02,Duplicate mouse,-5,0,0
+BAD-03,,NaN,0,-1

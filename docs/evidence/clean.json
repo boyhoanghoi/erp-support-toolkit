@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "reliable": true,
+  "product_rows": 2,
+  "movement_rows": 4,
+  "error_count": 0,
+  "variance_count": 0,
+  "errors": [],
+  "balances": [
+    {
+      "sku": "KB-01",
+      "opening_stock": 10,
+      "movement_total": -3,
+      "expected_stock": 7,
+      "current_stock": 7,
+      "difference": 0
+    },
+    {
+      "sku": "MS-02",
+      "opening_stock": 5,
+      "movement_total": 3,
+      "expected_stock": 8,
+      "current_stock": 8,
+      "difference": 0
+    }
+  ]
+}
